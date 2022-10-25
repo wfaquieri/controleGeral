@@ -5,7 +5,7 @@
 #' @param x tibble.
 #'
 #' @export
-read_cis = function(){
+read_cis = function(x=cis){
   a = dir(path = 'input', pattern = "CI_", full.names = TRUE)
 
   n <- length(a)
